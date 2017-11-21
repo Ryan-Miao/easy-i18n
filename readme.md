@@ -9,6 +9,24 @@ Easy I18n
 详细用法参见[ResourceBundleMessageSourceTest](src\test\java\com\miao\easyi18n\support\ResourceBundleMessageSourceTest.java)
 
 简单使用如下
+在pom中添加仓库
+```xml
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+```
+然后，引入
+```xml
+<dependency>
+    <groupId>com.github.Ryan-Miao</groupId>
+    <artifactId>easy-i18n</artifactId>
+    <version>master-SNAPSHOT</version>
+</dependency>
+```
+接下来就可以愉快的玩耍了。
 ```java
 private final ResourceBundleMessageSource messageSource = new ResourceBundleMessageSource();
 messageSource.setBasenames("message", "another");
