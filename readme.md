@@ -6,7 +6,7 @@ Easy I18n
 
 
 # 如何使用
-详细用法参见[ResourceBundleMessageSourceTest](src\test\java\com\miao\easyi18n\support\ResourceBundleMessageSourceTest.java)
+详细用法参见[ResourceBundleMessageSourceTest](https://github.com/Ryan-Miao/easy-i18n/blob/master/src/test/java/com/miao/easyi18n/support/ResourceBundleMessageSourceTest.java)
 
 简单使用如下
 在pom中添加仓库
