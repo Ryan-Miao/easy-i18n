@@ -21,7 +21,6 @@ public class ResourceBundleMessageSourceTest {
         messageSource.setBasenames("message", "another");
         messageSource.setDefaultEncoding("UTF-8");
         messageSource.setFallbackToSystemLocale(false);
-        messageSource.setAlwaysUseMessageFormat(true);
     }
 
     @Test

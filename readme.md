@@ -14,7 +14,6 @@ private final ResourceBundleMessageSource messageSource = new ResourceBundleMess
 messageSource.setBasenames("message", "another");
 messageSource.setDefaultEncoding("UTF-8");
 messageSource.setFallbackToSystemLocale(false);
-messageSource.setAlwaysUseMessageFormat(true);
 
 String english = messageSource.getMessage(USER_NAME, null, Locale.US);
 String chinese = messageSource.getMessage(USER_NAME, null, Locale.SIMPLIFIED_CHINESE);
