@@ -1,5 +1,8 @@
 Easy I18n
 ===
+![](https://img.shields.io/badge/Java-1.8-orange.svg)
+[![Build Status](https://travis-ci.org/Ryan-Miao/easy-i18n.svg?branch=master)](https://travis-ci.org/Ryan-Miao/easy-i18n)
+
 
 本项目的目的在于提供简单的集成国际化的方案。
 由于Spring Message的使用简洁好用，因此特别提取出相关代码。所有代码均摘自Spring-context.
