@@ -7,16 +7,16 @@ Easy I18n
 
 ![](https://make.wordpress.org/polyglots/files/2016/01/i8n-v2.png)
 
-easy-i18n provide a simple i18n integration for Java project. It is just a copy of Spring Message from spring-context.
+
+本项目的目的在于提供简单的集成国际化的方案。
+由于Spring Message的使用简洁好用，因此特别提取出相关代码。所有代码均摘自Spring-context.
 
 
+# 如何使用
+详细用法参见[ResourceBundleMessageSourceTest](https://github.com/Ryan-Miao/easy-i18n/blob/master/src/test/java/com/miao/easyi18n/support/ResourceBundleMessageSourceTest.java)
 
-# How to use
-See [ResourceBundleMessageSourceTest](https://github.com/Ryan-Miao/easy-i18n/blob/master/src/test/java/com/miao/easyi18n/support/ResourceBundleMessageSourceTest.java)
-
-A simple usage:
-
-Maven for instance.
+简单使用如下
+在pom中添加仓库
 ```xml
 <repositories>
     <repository>
@@ -25,17 +25,7 @@ Maven for instance.
     </repository>
 </repositories>
 ```
-
-For the latest code:
-```xml
-<dependency>
-    <groupId>com.github.Ryan-Miao</groupId>
-    <artifactId>easy-i18n</artifactId>
-    <version>1.0</version>
-</dependency>
-```
-
-For the latest release code:
+然后，引入
 ```xml
 <dependency>
     <groupId>com.github.Ryan-Miao</groupId>
@@ -43,8 +33,6 @@ For the latest release code:
     <version>master-SNAPSHOT</version>
 </dependency>
 ```
-
-
 接下来就可以愉快的玩耍了。
 ```java
 private final ResourceBundleMessageSource messageSource = new ResourceBundleMessageSource();
