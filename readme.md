@@ -7,7 +7,7 @@ Easy I18n
 
 ![](https://make.wordpress.org/polyglots/files/2016/01/i8n-v2.png)
 
-easy-i18n provide a simple i18n integration for Java project. It is just a copy of Spring Message from spring-context.
+easy-i18n provides a simple i18n integration for Java project. It is just a copy of Spring Message from spring-context.
 
 
 
@@ -26,7 +26,7 @@ Maven for instance.
 </repositories>
 ```
 
-For the latest code:
+For the latest release code:
 ```xml
 <dependency>
     <groupId>com.github.Ryan-Miao</groupId>
@@ -35,7 +35,7 @@ For the latest code:
 </dependency>
 ```
 
-For the latest release code:
+For the latest code:
 ```xml
 <dependency>
     <groupId>com.github.Ryan-Miao</groupId>
